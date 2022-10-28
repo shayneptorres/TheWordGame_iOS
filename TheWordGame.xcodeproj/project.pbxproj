@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		B8088442290C6C9400EF1E9D /* TheWordGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8088441290C6C9400EF1E9D /* TheWordGameApp.swift */; };
-		B8088444290C6C9400EF1E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8088443290C6C9400EF1E9D /* ContentView.swift */; };
+		B8088444290C6C9400EF1E9D /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8088443290C6C9400EF1E9D /* WordsView.swift */; };
 		B8088446290C6C9600EF1E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8088445290C6C9600EF1E9D /* Assets.xcassets */; };
 		B8088449290C6C9600EF1E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8088448290C6C9600EF1E9D /* Preview Assets.xcassets */; };
 		B808844B290C6C9600EF1E9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808844A290C6C9600EF1E9D /* Persistence.swift */; };
 		B808844E290C6C9600EF1E9D /* TheWordGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B808844C290C6C9600EF1E9D /* TheWordGame.xcdatamodeld */; };
+		B8088455290C6E2E00EF1E9D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8088454290C6E2E00EF1E9D /* MainView.swift */; };
+		B8088457290C6E3800EF1E9D /* WordGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8088456290C6E3800EF1E9D /* WordGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B808843E290C6C9400EF1E9D /* TheWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8088441290C6C9400EF1E9D /* TheWordGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWordGameApp.swift; sourceTree = "<group>"; };
-		B8088443290C6C9400EF1E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8088443290C6C9400EF1E9D /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
 		B8088445290C6C9600EF1E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8088448290C6C9600EF1E9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B808844A290C6C9600EF1E9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B808844D290C6C9600EF1E9D /* TheWordGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheWordGame.xcdatamodel; sourceTree = "<group>"; };
+		B8088454290C6E2E00EF1E9D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B8088456290C6E3800EF1E9D /* WordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				B8088441290C6C9400EF1E9D /* TheWordGameApp.swift */,
-				B8088443290C6C9400EF1E9D /* ContentView.swift */,
+				B8088454290C6E2E00EF1E9D /* MainView.swift */,
+				B8088456290C6E3800EF1E9D /* WordGameView.swift */,
+				B8088443290C6C9400EF1E9D /* WordsView.swift */,
 				B8088445290C6C9600EF1E9D /* Assets.xcassets */,
 				B808844A290C6C9600EF1E9D /* Persistence.swift */,
 				B808844C290C6C9600EF1E9D /* TheWordGame.xcdatamodeld */,
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B808844B290C6C9600EF1E9D /* Persistence.swift in Sources */,
-				B8088444290C6C9400EF1E9D /* ContentView.swift in Sources */,
+				B8088444290C6C9400EF1E9D /* WordsView.swift in Sources */,
 				B8088442290C6C9400EF1E9D /* TheWordGameApp.swift in Sources */,
+				B8088455290C6E2E00EF1E9D /* MainView.swift in Sources */,
+				B8088457290C6E3800EF1E9D /* WordGameView.swift in Sources */,
 				B808844E290C6C9600EF1E9D /* TheWordGame.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

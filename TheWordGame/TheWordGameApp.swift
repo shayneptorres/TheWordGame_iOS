@@ -13,8 +13,18 @@ struct TheWordGameApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabView {
+                MainView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    .tabItem {
+                        Label("Game View", systemImage: "play.fill")
+                    }
+                WordsView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    .tabItem {
+                        Label("Game View", systemImage: "list.bullet")
+                    }
+            }
         }
     }
 }
